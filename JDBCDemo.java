@@ -22,7 +22,7 @@ public class JDBCDemo {
                 System.out.println("ID: " + rs.getInt("id") + ", Name: " + rs.getString("name"));
             }
 
-            // Clean up
+            
             rs.close();
             stmt.close();
             conn.close();
